@@ -1,6 +1,0 @@
-C:\C# WAP\UniversityEnrollment-master\Controls\bin\Debug\Controls.dll
-C:\C# WAP\UniversityEnrollment-master\Controls\bin\Debug\Controls.pdb
-C:\C# WAP\UniversityEnrollment-master\Controls\obj\Debug\Controls.csproj.AssemblyReference.cache
-C:\C# WAP\UniversityEnrollment-master\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
-C:\C# WAP\UniversityEnrollment-master\Controls\obj\Debug\Controls.dll
-C:\C# WAP\UniversityEnrollment-master\Controls\obj\Debug\Controls.pdb
