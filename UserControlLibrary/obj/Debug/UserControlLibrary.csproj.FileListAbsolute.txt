@@ -1,0 +1,8 @@
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\bin\Debug\UserControlLibrary.dll
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\bin\Debug\UserControlLibrary.pdb
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.csproj.AssemblyReference.cache
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.CloseButtonControl.resources
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.csproj.GenerateResource.cache
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.csproj.CoreCompileInputs.cache
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.dll
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.pdb
