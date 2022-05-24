@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityEnrollment", "UniversityEnrollment.csproj", "{1AF118F8-8DE7-4BC1-82A0-B09A3093053E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlLibrary", "..\UserControlLibrary\UserControlLibrary.csproj", "{CF3418EB-6E31-41DE-ACE5-03DBAC07955F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF118F8-8DE7-4BC1-82A0-B09A3093053E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF118F8-8DE7-4BC1-82A0-B09A3093053E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF118F8-8DE7-4BC1-82A0-B09A3093053E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF118F8-8DE7-4BC1-82A0-B09A3093053E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3418EB-6E31-41DE-ACE5-03DBAC07955F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3418EB-6E31-41DE-ACE5-03DBAC07955F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3418EB-6E31-41DE-ACE5-03DBAC07955F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3418EB-6E31-41DE-ACE5-03DBAC07955F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF75DDD8-55F9-4043-9F5D-F69AD1E3FDF4}
+	EndGlobalSection
+EndGlobal
