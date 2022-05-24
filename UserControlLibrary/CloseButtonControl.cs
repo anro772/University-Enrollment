@@ -25,8 +25,8 @@ namespace UserControlLibrary
 
         private void label1_MouseLeave(object sender, EventArgs e)
         {
-            X.BackColor = Color.FromArgb(60,60,60);
-            backPanel.BackColor = Color.FromArgb(60, 60, 60);
+            X.BackColor = Color.FromArgb(35,35,35);
+            backPanel.BackColor = Color.FromArgb(35,35,35);
         }
 
         private void label1_MouseClick(object sender, MouseEventArgs e)

@@ -43,18 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BarChartControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BarChartControl.Designer.cs">
+      <DependentUpon>BarChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarChart.cs" />
     <Compile Include="CloseButtonControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CloseButtonControl.Designer.cs">
       <DependentUpon>CloseButtonControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="MinimizeButtonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MinimizeButtonControl.Designer.cs">
+      <DependentUpon>MinimizeButtonControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CloseButtonControl.resx">
       <DependentUpon>CloseButtonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinimizeButtonControl.resx">
+      <DependentUpon>MinimizeButtonControl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

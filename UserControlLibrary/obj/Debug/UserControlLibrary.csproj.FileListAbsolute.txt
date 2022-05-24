@@ -6,3 +6,4 @@ C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLi
 C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.csproj.CoreCompileInputs.cache
 C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.dll
 C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.pdb
+C:\C# WAP\UniversityEnrollment-master\UserControlLibrary\obj\Debug\UserControlLibrary.MinimizeButtonControl.resources

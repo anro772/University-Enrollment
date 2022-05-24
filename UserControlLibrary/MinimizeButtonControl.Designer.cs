@@ -1,6 +1,6 @@
 ﻿namespace UserControlLibrary
 {
-    partial class CloseButtonControl
+    partial class MinimizeButtonControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,45 +29,43 @@
         private void InitializeComponent()
         {
             this.backPanel = new System.Windows.Forms.Panel();
-            this.X = new System.Windows.Forms.Label();
+            this.minimize = new System.Windows.Forms.Label();
             this.backPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // backPanel
             // 
-            this.backPanel.Controls.Add(this.X);
-            this.backPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.backPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.backPanel.Controls.Add(this.minimize);
             this.backPanel.Location = new System.Drawing.Point(0, 0);
             this.backPanel.Name = "backPanel";
             this.backPanel.Size = new System.Drawing.Size(48, 28);
             this.backPanel.TabIndex = 0;
-            this.backPanel.Click += new System.EventHandler(this.panel1_Click);
-            this.backPanel.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
-            this.backPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.backPanel.MouseLeave += new System.EventHandler(this.minimize_MouseLeave);
+            this.backPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.minimize_MouseMove);
             // 
-            // X
+            // minimize
             // 
-            this.X.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.X.AutoSize = true;
-            this.X.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.X.ForeColor = System.Drawing.Color.White;
-            this.X.Location = new System.Drawing.Point(8, -1);
-            this.X.Name = "X";
-            this.X.Size = new System.Drawing.Size(30, 29);
-            this.X.TabIndex = 0;
-            this.X.Text = "X";
-            this.X.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label1_MouseClick);
-            this.X.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
-            this.X.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.minimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimize.AutoSize = true;
+            this.minimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minimize.ForeColor = System.Drawing.Color.White;
+            this.minimize.Location = new System.Drawing.Point(13, -4);
+            this.minimize.Name = "minimize";
+            this.minimize.Size = new System.Drawing.Size(21, 29);
+            this.minimize.TabIndex = 1;
+            this.minimize.Text = "-";
+            this.minimize.MouseClick += new System.Windows.Forms.MouseEventHandler(this.minimize_MouseClick);
+            this.minimize.MouseLeave += new System.EventHandler(this.minimize_MouseLeave);
+            this.minimize.MouseMove += new System.Windows.Forms.MouseEventHandler(this.minimize_MouseMove);
             // 
-            // CloseButtonControl
+            // MinimizeButtonControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.backPanel);
-            this.Name = "CloseButtonControl";
+            this.Name = "MinimizeButtonControl";
             this.Size = new System.Drawing.Size(48, 28);
             this.backPanel.ResumeLayout(false);
             this.backPanel.PerformLayout();
@@ -78,6 +76,6 @@
         #endregion
 
         private System.Windows.Forms.Panel backPanel;
-        private System.Windows.Forms.Label X;
+        private System.Windows.Forms.Label minimize;
     }
 }
